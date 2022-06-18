@@ -504,26 +504,26 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0663af",endColorstr="#d71632",GradientType=1);
 }
 
-.bg-gradient {
+.bg-cnt-gradient {
   background: rgb(255, 0, 0);
   background: -moz-linear-gradient(
     90deg,
     #87092b 0%,
     rgba(88, 4, 4, 1) 47%,
     #1195fb 81%
-  );
+  )!important;
   background: -webkit-linear-gradient(
     90deg,
     #87092b 0%,
     rgba(88, 4, 4, 1) 47%,
     #1195fb 81%
-  );
+  )!important;
   background: linear-gradient(
     90deg,
     #87092b 0%,
     rgba(88, 4, 4, 1) 47%,
     #1195fb 81%
-  );
+  )!important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#0fb2fb",GradientType=1);
 }
 
@@ -761,7 +761,8 @@ body {
 }
 
 .section {
-  float: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .section,
@@ -900,7 +901,7 @@ background-color: rgba(82, 5, 5, 0.493);
 {
     font-family: metropolis-medium;
     text-align: center;
-
+    font-size: 2em;
 }
 
 .section-two .section-content .photo-list-container .photo-item img
@@ -1229,7 +1230,8 @@ display: none;
 .section-six .section-content
 {
 
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .section-six .section-content .portoflio-container
@@ -1299,7 +1301,206 @@ display: none;
     margin-right: 4px;
     transform: translateY(-1px);
 }
+
+
+.section-six .section-content  .partners.first-partner
+{
+
+    margin-top: 3em;
+
+}
+
+
+.section-six .section-content  .partners.last-partner
+{
+
+    margin-bottom: 10em;
+
+}
+
+
+.section-six .section-content  .partners
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+
+.section-six .section-content  .partners a
+{
+    display: inline-block;
+    width: 5em;
+    margin:0 1em;
+}
  
+
+.section-six .section-content  .partners a img
+{
+
+
+width: 100%;
+
+}
+ 
+
+.section-seven
+{
+    background: url(kid-playing.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.section-seven .section-content
+{
+display: flex;
+justify-content: center;
+background-color: rgba(37, 3, 3, 0.767);
+padding-top: 7em;
+padding-bottom: 12em ;
+}
+
+
+.section-seven .section-content > img
+{
+
+    width: 10em;
+    height: 100%;
+    margin:0 3em;
+
+}
+
+.section-seven .section-content .right-content
+{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.section-seven .section-content .right-content h1
+{
+
+
+    font-family: hemi-head-it;
+    color: white;
+    margin-bottom: 0.5em;
+
+}
+
+.section-seven .section-content .right-content a
+{
+
+
+
+
+}
+
+.section-eight
+{
+
+    margin-top: -6em;
+}
+
+
+.section-eight .section-content 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em 0;
+}
+
+.section-eight .section-content h1
+{
+
+    font-family: robotica-custom;
+    font-size: 2.5em;
+    color: white;
+    text-align: right;
+}
+
+
+.section-eight .section-content .badge-logo
+{
+
+    background: url(SLIDE_11_DIGITAL_1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 16em;
+    height: 11em;
+    display: inline-block;
+    clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%);
+
+    position: relative;
+    margin-right: 6em;
+}
+
+
+.section-eight .section-content .badge-logo > div
+{
+
+
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    position: relative
+}
+
+
+.section-eight .section-content .badge-logo > div > span
+{
+    display: inline-block;
+}
+
+
+
+.section-eight .section-content .badge-logo > div  img
+{
+    width: 7em;
+
+}
+
+
+.section-eight .section-content .right-content
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.section-eight .section-content .badge-logo img{
+
+
+    position: absolute;
+    left: 0;
+    width: 5em;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
 #header {
   width: 100%;
   display: inline-flex;
@@ -1536,13 +1737,14 @@ display: none;
 }
 
 #instafeed .instagram-post .post-description {
+
   text-align: left;
   margin-top: 0.5em;
   font-size: 0.7em;
-
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+
 }
 
 
