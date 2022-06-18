@@ -109,6 +109,7 @@ a.red-button:hover
     0% 100%
   );
 
+  
   background: rgb(204, 20, 51);
   background: -moz-linear-gradient(
     90deg,
