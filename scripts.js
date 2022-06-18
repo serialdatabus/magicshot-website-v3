@@ -32,7 +32,7 @@ function startCarousel(carousel)
                 items:1
             },
             600:{
-                items:1
+                items:4
             },
             1000:{
                 items:6
