@@ -1501,6 +1501,146 @@ justify-content: center;
 
 }
 
+
+
+.section-nine 
+{
+
+    margin-top: -5em;
+
+}
+
+
+
+
+.section-nine  .section-content
+{
+}
+
+
+
+.section-nine .contact-form
+{
+
+
+
+    margin-top: 4em;
+
+}
+
+
+.section-nine .contact-form input,
+.section-nine .contact-form textarea
+{
+width: 100%;
+margin-bottom: 1em;
+padding: 0.3em;
+background-color: transparent;
+border: 1px solid #d10a357e;
+color: white;
+font-size: 0.8em;
+outline: none;
+
+}
+
+.section-nine .contact-form a
+{
+    outline: none;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+.section-nine .footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 6em 0;
+}
+
+
+.section-nine .footer .red-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em 0;
+    width: 5em;
+}
+
+
+.section-nine .footer-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em;
+  }
+  
+  .section-nine .footer-column > h3 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .section-nine .footer-column > p {
+    font-size: 0.8em;
+    color: white;
+    margin-bottom: 1.5em;
+  }
+  
+  .section-nine .footer-column .magicshot-logo {
+    width: 7em;
+  }
+  
+  .section-nine .footer-column .footer-socials {
+  }
+  
+  .section-nine .footer-column .footer-socials a {
+  }
+  
+  .section-nine .footer-column .footer-socials a img {
+    width: 1.5em;
+    margin: 0 0.3em;
+  }
+  
+  .section-nine .footer-column .news-title-date {
+    margin-bottom: 1em;
+  }
+  
+  .section-nine .footer-column .news-title-date h3 {
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  .section-nine .footer-column .news-title-date p {
+    color: white;
+    font-size: 0.7em;
+  }
+  
+  .section-nine .footer-column .form-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-nine .footer-column .form-footer input {
+    background: no-repeat;
+    border: 1px solid white;
+    padding: 0.3em;
+    outline: none;
+    color: white;
+  }
+  
+  .section-nine .footer-column .form-footer button {
+    width: 8em;
+    padding: 0.1em;
+    margin-top: 0.3em;
+  }
+
+
+
+
 #header {
   width: 100%;
   display: inline-flex;
