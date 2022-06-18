@@ -1,4 +1,49 @@
 var lastScrollTop = 0;
+
+function CarouselInit() {
+
+    var checkWidth = $(window).width();
+    var carousel = $(".container-event-items");
+
+    
+    if (checkWidth < 980) {
+        carousel.addClass('owl-carousel');
+        startCarousel(carousel);
+  
+    }
+    else{
+        if (carousel.data('owlCarousel') != 'undefined') {
+            carousel.trigger('destroy.owl.carousel').removeClass('owl-carousel');
+        }
+    }
+  
+
+}
+
+function startCarousel(carousel)
+{
+
+    carousel.owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:6
+            }
+        }
+    });
+
+
+}
+
+
 $(document).ready(function(){
 
     topHeaderMenu  = $("#top-header-menu");
@@ -41,6 +86,13 @@ $(document).ready(function(){
             }
         }
     });
+
+
+
+
+   
+
+
 
 
 
@@ -137,6 +189,16 @@ $(document).ready(function(){
 
        
     });
+
+
+
+
+
+
+
+
+    CarouselInit();
+    $(window).resize(CarouselInit);
     
 
   });
