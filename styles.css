@@ -109,7 +109,7 @@ a.red-button:hover
     0% 100%
   );
 
-  
+
   background: rgb(204, 20, 51);
   background: -moz-linear-gradient(
     90deg,
@@ -1969,6 +1969,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d10a35",endCo
   }
 
 
+  .section-two .section-content .photo-list-container
+  {
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+  .section-two .section-content .photo-list-container .photo-item
+  {
+      margin-bottom: 3em;
+  }
+
+
+  .section-two .section-content .photo-list-container .photo-item img {
+    width: 6em;
+}
 
   .section-one .section-content {
     content: "";
