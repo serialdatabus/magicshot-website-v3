@@ -1249,6 +1249,15 @@ display: none;
 
 }
 
+
+.section-six .section-content .portfolio-container iframe
+{
+
+  width: 100%;
+  height: 12em;
+
+}
+
 .section-six .section-content .foto-slider
 {
     width: 100%;
