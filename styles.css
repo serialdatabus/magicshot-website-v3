@@ -934,14 +934,12 @@ margin-bottom: 7em;
 {
 transform: scale(0.6);
 margin: 0 -1em;
-width: 13em;
 
 }
 
 
 .section-two .section-content .services-list img:first-child
 {
-width: 11em;
 
 }
 
@@ -1449,10 +1447,11 @@ justify-content: center;
 .section-eight .section-content h1
 {
 
-    font-family: robotica-custom;
+    font-family: hemi-head-it;
     font-size: 2.5em;
     color: white;
     text-align: right;
+
 }
 
 
@@ -1518,7 +1517,7 @@ justify-content: center;
 
     position: absolute;
     left: 0;
-    width: 5em;
+    width: 8em;
 
     left: 50%;
     top: 50%;
@@ -1603,7 +1602,7 @@ outline: none;
     align-items: center;
     justify-content: center;
     padding: 0.2em 0;
-    width: 5em;
+    width: 7em;
 }
 
 
@@ -2058,6 +2057,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d10a35",endCo
     width: 13em;
 
 }
+
+
 
 
 .section .section-content .section-title h1,
