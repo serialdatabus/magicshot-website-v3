@@ -45,6 +45,17 @@ function startCarousel(carousel)
 
 
 $(document).ready(function(){
+$("#contact-form input,#contact-form textarea").click(function(){
+
+    if(!$(this).hasClass("clicked"))
+    {
+        $(this).val("");
+        $(this).addClass("clicked");
+    }
+
+});
+
+
 
     topHeaderMenu  = $("#top-header-menu");
     headerheight = topHeaderMenu.outerHeight();
